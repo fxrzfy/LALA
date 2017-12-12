@@ -1,0 +1,654 @@
+/* Demo styles */
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide.one{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg.jpg");
+
+}
+.swiper-slide.one .bg{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg1.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+.swiper-slide.one .bg .bg2{
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.swiper-slide.one .bg .bg3{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.one .bg .bg4{
+    width:100%;
+    height: 55%;
+    position: absolute;
+    top: 47%;
+}
+.swiper-slide.one .bg .bg5{
+    width:100%;
+    height: 100%;
+
+}
+.swiper-slide.one .bg .bg6{
+    width:70%;
+    height: 55%;
+    position: absolute;
+    top: 46%;
+}
+.swiper-slide.one .bg .bg7{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.one .bg .bg8{
+    width:50%;
+    height: 45%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.swiper-slide.one .bg .bg9{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.one .bg .bg10{
+    width: 39%;
+    height: 15%;
+    position: absolute;
+    top: 17%;
+    left: 33%;
+}
+.swiper-slide.one .bg .bg11{
+    width: 100%;
+    height: 100%;
+}
+
+
+.swiper-slide.one .bg .bg14{
+    width: 41%;
+    height: 8%;
+    position: absolute;
+    top: 90%;
+    left: 33%;
+}
+.swiper-slide.one .bg .bg15{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.one .bg .bg16{
+    width: 38%;
+    height: 7%;
+    position: absolute;
+    top: 90%;
+    left: 35%;
+}
+.swiper-slide.one .bg .bg17{
+    width: 100%;
+    height: 100%;
+}
+
+/*第二屏开始*/
+
+.swiper-slide.two{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg.jpg");
+
+
+}
+.swiper-slide.two .bg{
+    width: 100%;
+    height: 100%;
+    background: url("../img/xiabg.png");
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.swiper-slide.two .bg .zou{
+    width: 46%;
+    height: 45%;
+    position: absolute;
+    float: left;
+}
+.swiper-slide.two .bg .zou img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.two .bg .zhong{
+    width: 66%;
+    height: 35%;
+    position: absolute;
+    left: 17%;
+    float: left;
+    top: 2%;
+
+}
+.swiper-slide.two .bg .zhong_xia{
+    width: 85%;
+    height: 36%;
+    position: absolute;
+    left: 4%;
+    top: 5%
+}
+.swiper-slide.two .bg .zhong_xia img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.two .bg .zhong_xia_zi{
+    width: 36%;
+    height: 15%;
+    position: absolute;
+    left: 30%;
+    top: 13%;
+}
+.swiper-slide.two .bg .zhong_xia_zi img{
+    width: 100% ;
+    height: 100%;
+}
+.swiper-slide.two .bg .zhong img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.two .bg .you{
+    width: 46%;
+    height: 45%;
+    left: 55%;
+    position: absolute;
+    float: left;
+
+}
+.swiper-slide.two .bg .you img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.two .bg .xia_tupian{
+    background: url(../img/jieshao.png);
+    position: absolute;
+    width: 91%;
+    height: 50%;
+    top: 47%;
+    left: 6%;
+    background-size: 100% 100%;
+}
+.swiper-slide.two .bg .xia_tupian p{
+    width: 73%;
+    height: 27%;
+    left: 10%;
+    position: absolute;
+    top: 13%;
+    font-size: 3vw;
+}
+/*第三屏开始*/
+.swiper-slide.there{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg.jpg");
+
+}
+.swiper-slide.there .bg{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg1.png");
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.swiper-slide.there .bg .bg_there{
+    width: 87%;
+    height: 50%;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+.swiper-slide.there .bg .bg_there .zhi{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+}
+.swiper-slide.there .bg .bg_there .zhi img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .bg_there .hei{
+    width: 93%;
+    height: 18%;
+    position: absolute;
+    top: 23%;
+    left: 6%;
+}
+.swiper-slide.there .bg .bg_there .hei img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .bg_there .xing{
+    width: 14%;
+    height: 14%;
+    position: absolute;
+    top: -5%;
+    left: 36%;
+    z-index: 11;
+}
+.swiper-slide.there .bg .bg_there .xing img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .bg_there .xing1 img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .bg_there .xing2 img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .bg_there .xing1{
+    width: 14%;
+    height: 14%;
+    position: absolute;
+    top: -7%;
+    left: 75%;
+    z-index: 11;
+}
+.swiper-slide.there .bg .bg_there .xing2{
+
+    width: 18%;
+    height: 25%;
+    position: absolute;
+    top: 60%;
+    left: 95%;
+    z-index: 11;
+}
+.swiper-slide.there .bg .bg_there .yun{
+    width: 61%;
+    height: 40%;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.swiper-slide.there .bg .bg_there .yun img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .bg_there .wohui{
+    width: 44%;
+    height: 21%;
+    position: absolute;
+    top: 17%;
+    left: 30%;
+}
+.swiper-slide.there .bg .bg_there .wohui img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .bg_there .tiao{
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.swiper-slide.there .bg .bg_there .tiao .hong1{
+    width: 5%;
+    height: 12%;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    border-radius: 10px;
+}
+.swiper-slide.there .bg .bg_there .tiao .hong2{
+    width: 5%;
+    height: 12%;
+    position: absolute;
+    top: 68%;
+    left: 88%;
+    border-radius: 10px;
+}
+.swiper-slide.there .bg .bg_there .tiao .hong3{
+    width: 5%;
+    height: 12%;
+    position: absolute;
+    top: 102%;
+    left: 71%;
+    border-radius: 10px;
+}
+.swiper-slide.there .bg .bg_there .tiao .hong4{
+    width: 5%;
+    height: 12%;
+    position: absolute;
+    top: 135%;
+    left: 97%;
+    border-radius: 10px;
+}
+.swiper-slide.there .bg .bg_there .tiao1{
+    width: 100%;
+    height: 15%;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.swiper-slide.there .bg .bg_there .tiao1 span{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.swiper-slide.there .bg .bg_there .tiao1 img{
+    width: 89%;
+    height: 100%;
+    float: right;
+}
+.swiper-slide.there .bg .bg_there .tiao2{
+    width: 100%;
+    height: 15%;
+    margin-top: 8%;
+   margin-left: 5%;
+}
+.swiper-slide.there .bg .bg_there .tiao2 span{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.swiper-slide.there .bg .bg_there .tiao2 img{
+    width: 89%;
+    height: 100%;
+    float: right;
+}
+.swiper-slide.there .bg .bg_there .tiao3{
+    width: 100%;
+    height: 15%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+.swiper-slide.there .bg .bg_there .tiao3 span{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.swiper-slide.there .bg .bg_there .tiao3 img{
+    width: 89%;
+    height: 100%;
+    float: right;
+}
+.swiper-slide.there .bg .bg_there .tiao4{
+    width: 100%;
+    height: 15%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+.swiper-slide.there .bg .bg_there .tiao4 span{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.swiper-slide.there .bg .bg_there .tiao4 img{
+    width: 89%;
+    height: 100%;
+    float: right;
+}
+.swiper-slide.there .bg .jiayou{
+    width: 70%;
+    height: 42%;
+    position: absolute;
+    top: 51%;
+    left: 13%;
+}
+.swiper-slide.there .bg .jiayou .zi{
+    width: 82%;
+    height: 31%;
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    font-size: 3vw;
+}
+.swiper-slide.there .bg .jiayou img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .jiayou1{
+    width: 68%;
+    height: 5%;
+    position: absolute;
+    top: 75%;
+    left: 13%;
+}
+.swiper-slide.there .bg .jiayou1 img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .deng{
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    top: 64%;
+}
+.swiper-slide.there .bg .deng img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.there .bg .deng1{
+    width: 19%;
+    height: 10%;
+    position: absolute;
+    top: 74%;
+    left: 82%;
+}
+.swiper-slide.there .bg .deng1 img{
+    width: 100%;
+    height: 100%;
+}
+/*第四屏开始*/
+.swiper-slide.four{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg.jpg");
+
+}
+.swiper-slide.four .bg{
+    width: 100%;
+    height: 100%;
+    background: url("../img/xiabg.png");
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.swiper-slide.four .bg .zou{
+    width: 46%;
+    height: 45%;
+    position: absolute;
+    float: left;
+}
+.swiper-slide.four .bg .zou img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.four .bg .zhong{
+    width: 66%;
+    height: 35%;
+    position: absolute;
+    left: 17%;
+    float: left;
+    top: 2%;
+
+}
+.swiper-slide.four .bg .zhong_xia{
+    width: 85%;
+    height: 36%;
+    position: absolute;
+    left: 4%;
+    top: 5%
+}
+.swiper-slide.four .bg .zhong_xia img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.four .bg .zhong_xia_zi{
+    width: 35%;
+    height: 14%;
+    position: absolute;
+    left: 31%;
+    top: 13%;
+}
+.swiper-slide.four .bg .zhong_xia_zi img{
+    width: 100% ;
+    height: 100%;
+}
+.swiper-slide.four .bg .zhong img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.four .bg .you{
+    width: 46%;
+    height: 45%;
+    left: 55%;
+    position: absolute;
+    float: left;
+
+}
+.swiper-slide.four .bg .you img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.four .bg .xia_tupian{
+    background: url(../img/jieshao.png);
+    position: absolute;
+    width: 91%;
+    height: 50%;
+    top: 47%;
+    left: 6%;
+    background-size: 100% 100%;
+}
+.swiper-slide.four .bg .xia_tupian p{
+    width: 73%;
+    height: 5%;
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    font-size: 3vw;
+}
+/*第五页开始*/
+.swiper-slide.five{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.five .bg{
+    width: 100%;
+    height: 100%;
+    background: url("../img/xiabg.png");
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.swiper-slide.five .bg .mianshi{
+    width: 94%;
+    position: absolute;
+    height: 24%;
+    top: 4%;
+    left: 3%;
+}
+.swiper-slide.five .bg span{
+    width: 45%;
+    height: 18%;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+}
+.swiper-slide.five .bg span img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.five .bg .mianshi img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.five .bg .zhuce{
+    width: 88%;
+    height: 60%;
+    position: absolute;
+    top: 37%;
+    left: 10%;
+}
+.swiper-slide.five .bg .zhuce img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.five .bg .zhuce .one{
+    width: 84%;
+    height: 9%;
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    border-radius: 14px;
+}
+.swiper-slide.five .bg .zhuce .two{
+    width: 84%;
+    height: 9%;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    border-radius: 14px;
+}
+.swiper-slide.five .bg .zhuce .there{
+    width: 84%;
+    height: 9%;
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    border-radius: 14px;
+}
+.swiper-slide.five .bg .zhuce .four{
+    width: 84%;
+    height: 9%;
+    position: absolute;
+    top: 53%;
+    left: 5%;
+    border-radius: 14px;
+}
+.swiper-slide.five .bg .zhuce .five{
+    width: 84%;
+    height: 9%;
+    position: absolute;
+    top: 69%;
+    left: 5%;
+    border-radius: 14px;
+}
