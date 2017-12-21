@@ -216,7 +216,17 @@ body {
     left: 10%;
     position: absolute;
     top: 13%;
-    font-size: 3vw;
+}
+h2{
+    margin-top: 10%;
+}
+.swiper-slide.two .bg .xia_tupian span{
+    width: 74%;
+    height: 40%;
+    position: absolute;
+    top: 26%;
+    font-size: 3.4vw;
+    left: 12%;
 }
 /*第三屏开始*/
 .swiper-slide.there{
@@ -437,7 +447,7 @@ body {
     position: absolute;
     top: 70%;
     right: 10%;
-    font-size: 3vw;
+    font-size: 3.6vw;
 }
 .swiper-slide.there .bg .jiayou img{
     width: 100%;
@@ -562,7 +572,7 @@ body {
     position: absolute;
     top: 19%;
     left: 10%;
-    font-size: 3vw;
+    font-size: 3.6vw;
 }
 /*第五页开始*/
 .swiper-slide.five{
